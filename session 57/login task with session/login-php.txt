@@ -1,0 +1,16 @@
+<?php
+session_start(); 
+
+define("username","mhmd");
+define("password","123");
+if(header("LOCATION: form.html")){
+    header("LOCATION: home.php");
+    
+}
+if(username==$_POST['username']&&password==$_POST['password']){
+    $_SESSION['name']=username;
+    header("LOCATION: home.php");
+}
+else {
+    header("LOCATION: form.php");
+}

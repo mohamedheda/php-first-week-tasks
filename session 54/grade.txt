@@ -1,0 +1,16 @@
+<?php
+$grade=55;
+if($grade>85){
+    echo "exellent";
+}elseif($grade>80){
+    echo "very good";
+}elseif($grade>80){
+    echo "very good";
+}elseif($grade>70){
+    echo "good";
+}elseif($grade>50){
+    echo "nice";
+}
+else{
+    echo "do not pass";
+}

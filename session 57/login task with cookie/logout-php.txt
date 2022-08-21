@@ -1,0 +1,4 @@
+<?php
+    setcookie("name","",time()-(3600*24),"/");
+
+header('LOCATION: form.php');

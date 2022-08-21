@@ -1,0 +1,14 @@
+<?php
+$mark="%";
+$num1=10;
+$num2=5;
+if($mark=="+"){
+    echo "num1 + num2 =". $num1+$num2;}
+elseif($mark=="-"){
+echo "num1 - num2 =". $num1-$num2;}
+elseif($mark=="*"){
+echo "num1 * num2 =". $num1*$num2;}
+elseif($mark=="/"){
+echo "num1 / num2 =". $num1/$num2;}
+elseif($mark=="%"){
+echo "num1 % num2 =". $num1%$num2;}

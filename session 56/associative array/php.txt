@@ -1,0 +1,7 @@
+<?php
+$arr=['name'=>'mhmd','age'=>'20','country'=>'mansourah'];
+$newArr=array_keys($arr);
+$length=count($newArr);
+for($i=0;$i<$length;$i++){
+    echo $arr[$newArr[$i]]."<br>";
+}
